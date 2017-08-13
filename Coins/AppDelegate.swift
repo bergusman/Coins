@@ -7,9 +7,15 @@
 //
 
 import UIKit
+import GoogleMaps
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    private func setupGoogle() {
+        GMSServices.provideAPIKey(Keys.google)
+    }
+    
     var window: UIWindow?
     
     private func setupWindow() {

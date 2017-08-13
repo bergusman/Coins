@@ -14,6 +14,7 @@
 		AD54A84E1F40C00700B8AAC8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD54A84C1F40C00700B8AAC8 /* MapViewController.swift */; };
 		AD54A84F1F40C00700B8AAC8 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD54A84D1F40C00700B8AAC8 /* MapViewController.xib */; };
 		AD54A8521F40C23800B8AAC8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD54A8511F40C23800B8AAC8 /* MapKit.framework */; };
+		AD54A8541F40C52C00B8AAC8 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD54A8531F40C52C00B8AAC8 /* Keys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AD54A84C1F40C00700B8AAC8 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		AD54A84D1F40C00700B8AAC8 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 		AD54A8511F40C23800B8AAC8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AD54A8531F40C52C00B8AAC8 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				AD54A8401F40BE9700B8AAC8 /* Info.plist */,
+				AD54A8531F40C52C00B8AAC8 /* Keys.swift */,
 			);
 			name = Others;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD54A8351F40BE9700B8AAC8 /* AppDelegate.swift in Sources */,
+				AD54A8541F40C52C00B8AAC8 /* Keys.swift in Sources */,
 				AD54A84E1F40C00700B8AAC8 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
