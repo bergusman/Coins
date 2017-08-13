@@ -1,0 +1,19 @@
+PODS:
+  - GoogleMaps (2.3.1):
+    - GoogleMaps/Maps (= 2.3.1)
+  - GoogleMaps/Base (2.3.1)
+  - GoogleMaps/Maps (2.3.1):
+    - GoogleMaps/Base
+  - Reveal-SDK (9)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - Reveal-SDK
+
+SPEC CHECKSUMS:
+  GoogleMaps: c66a71058b9b1294bcdd5463a68e357fa50c079f
+  Reveal-SDK: d977a1ec41e7c076025c1005da6e6d7c1b8ed254
+
+PODFILE CHECKSUM: e68f7499a0934948766cd2b292a76c7600da0ec1
+
+COCOAPODS: 1.2.1
