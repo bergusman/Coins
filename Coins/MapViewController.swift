@@ -7,13 +7,23 @@
 //
 
 import UIKit
+import GoogleMaps
 
 class MapViewController: UIViewController {
+    
+    @IBOutlet weak var mapView: GMSMapView!
+    
+    func setupMapView() {
+        if let url = Bundle.main.url(forResource: "map-dark-style", withExtension: "json") {
+            mapView.mapStyle = try? GMSMapStyle(contentsOfFileURL: url)
+        }
+    }
 
     // MARK: - UIViewController
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupMapView()
     }
     
     override func viewWillAppear(_ animated: Bool) {
