@@ -16,6 +16,8 @@
 		AD54A8521F40C23800B8AAC8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD54A8511F40C23800B8AAC8 /* MapKit.framework */; };
 		AD54A8541F40C52C00B8AAC8 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD54A8531F40C52C00B8AAC8 /* Keys.swift */; };
 		AD54A8561F40CB7D00B8AAC8 /* map-dark-style.json in Resources */ = {isa = PBXBuildFile; fileRef = AD54A8551F40CA9F00B8AAC8 /* map-dark-style.json */; };
+		AD54A8581F40CF3000B8AAC8 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD54A8571F40CF3000B8AAC8 /* Place.swift */; };
+		AD54A85A1F40CF9500B8AAC8 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD54A8591F40CF9500B8AAC8 /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		AD54A8511F40C23800B8AAC8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		AD54A8531F40C52C00B8AAC8 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		AD54A8551F40CA9F00B8AAC8 /* map-dark-style.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "map-dark-style.json"; sourceTree = "<group>"; };
+		AD54A8571F40CF3000B8AAC8 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		AD54A8591F40CF9500B8AAC8 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		AD54A8481F40BF8A00B8AAC8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				AD54A8571F40CF3000B8AAC8 /* Place.swift */,
+				AD54A8591F40CF9500B8AAC8 /* Category.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -275,8 +281,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD54A8351F40BE9700B8AAC8 /* AppDelegate.swift in Sources */,
+				AD54A85A1F40CF9500B8AAC8 /* Category.swift in Sources */,
 				AD54A8541F40C52C00B8AAC8 /* Keys.swift in Sources */,
 				AD54A84E1F40C00700B8AAC8 /* MapViewController.swift in Sources */,
+				AD54A8581F40CF3000B8AAC8 /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
