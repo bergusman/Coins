@@ -100,8 +100,8 @@
 		AD54A8481F40BF8A00B8AAC8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				AD54A8571F40CF3000B8AAC8 /* Place.swift */,
 				AD54A8591F40CF9500B8AAC8 /* Category.swift */,
+				AD54A8571F40CF3000B8AAC8 /* Place.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
