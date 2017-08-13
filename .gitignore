@@ -67,4 +67,4 @@ fastlane/screenshots
 fastlane/test_output
 
 # Keys
-Keys.swift
+Coins/Keys.swift
